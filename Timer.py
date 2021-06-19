@@ -23,13 +23,13 @@ secs=0
 total_secs=0
 total=0
 start=False
-sound1=pygame.mixer.Sound('tick.wav')	#Tạo tiếng đồng hồ khi chạy
-sound2=pygame.mixer.Sound('timeout.wav')	#Tạo tiếng khi hết giờ
+sound1=pygame.mixer.Sound('tick.wav')	
+sound2=pygame.mixer.Sound('timeout.wav')	
 running=True
 while running:
 	clock.tick(60)
 	screen.fill(GRAY)
-	mouse_x, mouse_y=pygame.mouse.get_pos()	#pos là viết tắt của position
+	mouse_x, mouse_y=pygame.mouse.get_pos()	
 	#Vẽ hình chữ nhật
 	pygame.draw.rect(screen,BLUE,(100,50,50,50))	
 	pygame.draw.rect(screen,BLUE,(100,130,50,50))	
